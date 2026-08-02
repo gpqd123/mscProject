@@ -1,0 +1,65 @@
+# Build output
+build/
+Build/
+out/
+bin/
+lib/
+Debug/
+Release/
+x64/
+x86/
+.vs/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+*.vcxproj.user
+
+# Compiled binaries and objects
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.so
+*.dylib
+
+# Vulkan / shader compiler generated files
+*.spv
+*.spv.h
+
+# IDE and tooling
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.user
+*.suo
+
+# Logs, dumps, and temporary files
+*.log
+*.dmp
+*.tmp
+*.bak
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Local environment and generated cache
+.env
+.env.*
+!.env.example
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Generated inspection metadata
+outputs/*.inspect.ndjson
